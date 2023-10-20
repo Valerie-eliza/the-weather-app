@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 300px;
+    max-height: 896px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-image: url("top.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 105px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: left;
+}
+
+.weather-info {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#weatherIcon {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+#temperature {
+    font-size: 50px;
+    text-align: left;
+}
+
+#description {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+}
+
+.sun-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sunrise,
+#sunset {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.forecast-container {
+    margin-top: 10px;
+    background-color: bisque;
+    max-width: 300px;
+    max-height: 896px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#forecastList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#forecastList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.forecast-day {
+    text-align: left;
+    flex: 1;
+}
+
+.forecast-temp {
+    text-align: right;
+    margin-left: 20px;
+}
